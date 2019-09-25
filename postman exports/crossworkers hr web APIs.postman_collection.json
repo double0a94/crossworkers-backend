@@ -1,0 +1,293 @@
+{
+	"id": "c2f93f32-0470-6083-7a3b-cd6e2be6fd8f",
+	"name": "crossworkers hr web APIs",
+	"description": "",
+	"order": [
+		"c536c9b6-62c4-78ca-94ec-6f76c3cc8992",
+		"9ecfff93-fcec-194d-6797-01af12c70b09",
+		"027bd73d-e610-5d3c-7209-6a5caa52b141",
+		"24bda7ea-f444-99b4-1dd1-95eb696c9cf6",
+		"e179d727-2f86-b29e-fd57-eb5aaa61eb7f",
+		"4605da68-6000-632d-5bcd-a98c04dd1d20",
+		"6ee0dbd7-fb35-4946-c603-1bcbf7cb03fe",
+		"c2849f61-ea59-00e1-d2ea-3509d3ff4807"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1569037261271,
+	"owner": "4553194",
+	"public": false,
+	"requests": [
+		{
+			"id": "027bd73d-e610-5d3c-7209-6a5caa52b141",
+			"headers": "Content-Type: application/json\nx-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/hr-assistant/add-employee/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1569038372764,
+			"name": "Add Employee (HR assisstant)",
+			"description": "",
+			"collectionId": "c2f93f32-0470-6083-7a3b-cd6e2be6fd8f",
+			"responses": [],
+			"rawModeData": "{\"email\":\"ahmedashraf2@gmail.com\",\"username\":\"Ahmed2 Ashraf2\",\"password\":\"12345678\",\"confirmPassword\":\"12345678\",\"department\":\"QA Testing\",\"manager\":\"Mohamed Ashraf\"}"
+		},
+		{
+			"id": "24bda7ea-f444-99b4-1dd1-95eb696c9cf6",
+			"headers": "Content-Type: application/json\nx-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/hr-assistant/add-employee/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1569038372764,
+			"name": "edit Employee (HR assisstant)",
+			"description": "",
+			"collectionId": "c2f93f32-0470-6083-7a3b-cd6e2be6fd8f",
+			"responses": [],
+			"rawModeData": "{\"email\":\"ahmedashraf2@gmail.com\",\"username\":\"Ahmed2 Ashraf2\",\"password\":\"12345678\",\"confirmPassword\":\"12345678\",\"department\":\"QA Testing\",\"manager\":\"Mohamed Ashraf\"}"
+		},
+		{
+			"id": "4605da68-6000-632d-5bcd-a98c04dd1d20",
+			"headers": "Content-Type: application/json\nx-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/benefit/all/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1569254053440,
+			"name": "Get all Benefits",
+			"description": "",
+			"collectionId": "c2f93f32-0470-6083-7a3b-cd6e2be6fd8f",
+			"responses": [],
+			"rawModeData": "{\"benefitType\":\"Insurance\",\"benefitName\":\"Health Insurance\" }"
+		},
+		{
+			"id": "6ee0dbd7-fb35-4946-c603-1bcbf7cb03fe",
+			"headers": "Content-Type: application/json\nx-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/chat/send/5d859c9633252124d0a4f0af/5d859fb0313a954588c47fe8",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c2f93f32-0470-6083-7a3b-cd6e2be6fd8f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "sendmessage",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569254047454,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"message\":\"222\",\"senderName\":\"bebo Ashraf\"}"
+		},
+		{
+			"id": "9ecfff93-fcec-194d-6797-01af12c70b09",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/user/login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c2f93f32-0470-6083-7a3b-cd6e2be6fd8f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569037592280,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"email\":\"ahmedashraf@gmail.com\",\"password\":\"12345678\"}"
+		},
+		{
+			"id": "c2849f61-ea59-00e1-d2ea-3509d3ff4807",
+			"headers": "x-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE\n",
+			"headerData": [
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/chat/all/5d859c9633252124d0a4f0af/5d859fb0313a954588c47fe8",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c2f93f32-0470-6083-7a3b-cd6e2be6fd8f",
+			"data": null,
+			"dataMode": "params",
+			"name": "get messages",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569254194846,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "c536c9b6-62c4-78ca-94ec-6f76c3cc8992",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/user/signup",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1569037470038,
+			"name": "register new hr assisstant",
+			"description": "",
+			"collectionId": "c2f93f32-0470-6083-7a3b-cd6e2be6fd8f",
+			"responses": [],
+			"rawModeData": "{\"email\":\"ahmedashraf@gmail.com\",\"username\":\"Ahmed Ashraf\",\"password\":\"12345678\",\"confirmPassword\":\"12345678\", \"hrAssisstantCode\":\"hrsecertcode\"}"
+		},
+		{
+			"id": "e179d727-2f86-b29e-fd57-eb5aaa61eb7f",
+			"headers": "Content-Type: application/json\nx-access-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "x-access-token",
+					"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZDg1OWM5NjMzMjUyMTI0ZDBhNGYwYWYiLCJlbWFpbCI6ImFobWVkYXNocmFmQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoiQWhtZWQgQXNocmFmIiwicm9sZSI6ImhyLWFzc2lzc3RhbnQiLCJpYXQiOjE1NjkwMzc3ODksImV4cCI6MTU2OTY0MjU4OX0.THKZvTTOtVFqr2rMg3V04fUOFnkNGX6M0eYbIhrC4wE",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:3000/benefit/save/",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c2f93f32-0470-6083-7a3b-cd6e2be6fd8f",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Add new Benefit (hr assisstant)",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1569040506186,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\"benefitType\":\"Insurance\",\"benefitName\":\"Health Insurance\" }"
+		}
+	]
+}
